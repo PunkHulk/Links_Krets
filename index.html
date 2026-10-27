@@ -202,7 +202,7 @@
             });
 
             // Planilha de cliques (Google Planilhas). Cole aqui a URL do Apps Script (termina em /exec).
-            var PLANILHA_URL = '';
+            var PLANILHA_URL = 'https://script.google.com/macros/s/AKfycbwr7KjP5droNaasUNwn_i38DuD3kYkrJkhbSO5S8co36rHnsAxt86jm0veFx3KcwqHIgA/exec';
             var aparelho = /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent) ? 'celular' : 'computador';
             function registrar(evento, botao) {
                 if (!PLANILHA_URL || navigator.webdriver) return; // ignora robôs automatizados
